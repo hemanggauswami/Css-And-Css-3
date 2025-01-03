@@ -1,0 +1,49 @@
+@media (max-width :767px) {
+
+    .container{
+
+        display: block;
+        grid-template-rows: repeat(10,1fr);
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #list{
+        
+        display: block;
+        height: 170px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }
+    nav h3{
+        /* text-align: center; */
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+
+}   
+        @media (min-width: 576px) {
+            
+        }
+    
